@@ -3,7 +3,7 @@
 import string
 
 def func(filename):
-    with open(f"{filename}.txt","w") as file:
+    with open(f"letters/{filename}.txt","w") as file:
         file.write(f"{filename}")
         file.close()
 

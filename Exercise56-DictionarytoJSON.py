@@ -14,5 +14,5 @@ d = {"employees":[{"firstName": "John", "lastName": "Doe"},
 "owners":[{"firstName": "Jack", "lastName": "Petter"},
           {"firstName": "Jessy", "lastName": "Petter"}]}
 
-with open("company1.jason","w") as file:
+with open("company1.json","w") as file:
     json_string = json.dump(d,file,indent=4)

@@ -9,13 +9,27 @@
 # Enter word: hello
 # That word doesn't exist!
 
+# def translator(inputLang):
+#     if inputLang in d:
+#         print(d[inputLang])
+#     else:
+#         print("That word doesn't exist!")
+    
+
+# d = dict(weather = "clima", earth = "terra", rain = "chuva")
+# inputLang = input("Enter word: ")
+# translator(inputLang)
+
 def translator(inputLang):
-    if inputLang in d:
-        print(d[inputLang])
+    try:
+        return d[inputLang]
+    except KeyError:
+        return "That word doesn't exist!"
+
     else:
         print("That word doesn't exist!")
     
 
 d = dict(weather = "clima", earth = "terra", rain = "chuva")
 inputLang = input("Enter word: ")
-translator(inputLang)
+print(translator(inputLang))

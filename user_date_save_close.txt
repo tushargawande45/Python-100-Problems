@@ -1,0 +1,6 @@
+Hey
+How are you
+Hello
+Save this text
+doesn't closed the file while running
+now closing this time using CLOSE

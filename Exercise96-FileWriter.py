@@ -8,4 +8,4 @@ while True:
         file.close()
         break
     else:
-        file.write(line + "\n")
+        file.write(line + "\n") 
